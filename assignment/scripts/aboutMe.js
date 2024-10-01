@@ -38,14 +38,17 @@ let pets= 0; console.log(pets);
 let friendsPets= 2; console.log(friendsPets);
 
 // 10 - Add two pets to your `pets` variable
-
+pets +=2; console.log(pets);
 
 // 11 - Create a constant variable called `allowedPets` and set it to a number value of your choice
+const allowedPets= 3; console.log(allowedPets);
 
 // 12 - Create a variable called `result`. Create a conditional:
 //      if adventurous is true, set `result` to be "Adventures are great!", 
 //      if it's not true,  set `result` to be "How about we stay home?"
 //      Console log the value of `result`
+
+
 
 // 13 - Create a variable called `diceRoll` and set it to the value of "Try again later.".
 //      Create a compound conditional: 
