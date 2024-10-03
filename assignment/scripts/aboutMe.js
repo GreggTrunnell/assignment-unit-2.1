@@ -65,8 +65,10 @@ console.log(result);
 //      Console log the value of `diceRoll`
 let diceRoll="Try again later."
 
-if (luckyNumber==2 && adventurous){ console.log(diceRoll="Roll the dice!")
-} else {console.log(diceRoll)};
+if (luckyNumber==2 && adventurous)(diceRoll="Roll the dice!")
+ else (diceRoll);
+
+console.log(diceRoll)
 
 // 14 - Create a variable called `petStatus`. 
 //      Write a conditional that covers the following:
@@ -80,10 +82,12 @@ let petStatus;
 
 if (pets < allowedPets){
   console.log(petStatus="I can have more pets")
-} else if (pets == allowedPets)console.log(petStatus="I have enough pets")
-  else if (pets > allowedPets)console.log(petStatus="Oh no, I have too many pets!")
 
-//else  (pets==allowedPets){petStatus="I have enough pets"}
+} else if (pets == allowedPets)(petStatus="I have enough pets")
+
+  else if (pets > allowedPets)(petStatus="Oh no, I have too many pets!")
+
+    console.log(petStatus);
 
 
 
