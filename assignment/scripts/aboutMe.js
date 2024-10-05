@@ -1,6 +1,7 @@
 
 // REQUIRED FEATURES:
 // 1 - Create a variable called `firstName` and assign it the value of your first name
+
 let firstName = 'Gregg '; console.log(firstName);
 
 // 2 - Create a second variable called `lastName` and assign it the value of your last name
@@ -49,6 +50,7 @@ console.log(allowedPets);
 //      if adventurous is true, set `result` to be "Adventures are great!", 
 //      if it's not true,  set `result` to be "How about we stay home?"
 //      Console log the value of `result`
+
 let result;
 if (adventurous) {
   result="Adventures are great!"
@@ -63,6 +65,7 @@ console.log(result);
 //      if luckyNumber is 2 and adventurous is true,
 //      set `diceRoll` to be "Roll the dice!"
 //      Console log the value of `diceRoll`
+
 let diceRoll="Try again later."
 
 if (luckyNumber==2 && adventurous)(diceRoll="Roll the dice!")
@@ -78,6 +81,7 @@ console.log(diceRoll)
 //      set `petStatus` to the value of "I have enough pets" 
 //      if the value of `pets` is greater than the value of `allowedPets`.
 //      set `petStatus` to the value of "Oh no, I have too many pets!"
+
 let petStatus;
 
 if (pets < allowedPets){
@@ -88,6 +92,7 @@ if (pets < allowedPets){
   else if (pets > allowedPets)(petStatus="Oh no, I have too many pets!")
 
     console.log(petStatus);
+    
 
 
 
@@ -99,11 +104,14 @@ if (pets < allowedPets){
 //      assigns the highest value to `mostPets`. There's several possibilities --
 //      be sure to think through all the scenarios. 
 //      console.log `mostPets` after the conditional has run.
+
 let mostPets;
 if (pets > friendsPets)(mostPets=pets)
   else (mostPets=friendsPets)
 
-console.log(mostPets);
+console.log(mostPets);          
+
+
 
 // 16 - Make a variable called `luckyResult`
 //      Write a *switch* statement that sets `luckyResult` to:
@@ -117,11 +125,16 @@ console.log(mostPets);
 
 // 17 -- Rewrite question 12 with a `ternary` operator. You'll need to do research!
 
-//let result;
-//adventurous ? result="Adventures are great!":result="How about we stay home?"
-//console.log(result)
+/*
+let result;
+adventurous ? result="Adventures are great!":result="How about we stay home?"
+console.log(result)
+*/
 
 //Not sure this is right.  Code seems to run correctly if original step 12 is commented out.
+
+
+
 
 // DO NOT MODIFY
 // Used for automated testing
