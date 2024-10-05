@@ -52,6 +52,7 @@ console.log(allowedPets);
 //      Console log the value of `result`
 
 let result;
+
 if (adventurous) {
   result="Adventures are great!"
 }
@@ -85,11 +86,9 @@ console.log(diceRoll)
 let petStatus;
 
 if (pets < allowedPets){
-  (petStatus="I can have more pets")
-
-} else if (pets == allowedPets)(petStatus="I have enough pets")
-
-  else if (pets > allowedPets)(petStatus="Oh no, I have too many pets!")
+  (petStatus="I can have more pets")} 
+else if (pets == allowedPets)(petStatus="I have enough pets")
+else if (pets > allowedPets)(petStatus="Oh no, I have too many pets!")
 
     console.log(petStatus);
     
@@ -106,6 +105,7 @@ if (pets < allowedPets){
 //      console.log `mostPets` after the conditional has run.
 
 let mostPets;
+
 if (pets > friendsPets)(mostPets=pets)
   else (mostPets=friendsPets)
 
@@ -121,6 +121,29 @@ console.log(mostPets);
 //      Otherwise, "Luck is what happens when preparation meets opportunity"
 //      You'll need to research how to use switch statements!
 //      console.log `luckyResult` after the conditional has run.
+
+let luckyResult;
+
+switch (luckyNumber){
+  case 1:
+    luckyResult="First is the worst";
+    break;
+  case 2: 
+    luckyResult= "Second is the best";
+    break;
+  case 3:
+    luckyResult="Third is the one with the polka dot dress";
+    break;
+  default: 
+    luckyResult="Luck is what happens when preparation meets opportunity";
+    break; 
+}
+console.log(luckyResult)
+
+
+
+
+
 
 
 // 17 -- Rewrite question 12 with a `ternary` operator. You'll need to do research!
