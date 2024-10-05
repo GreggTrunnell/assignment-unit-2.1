@@ -100,8 +100,8 @@ if (pets < allowedPets){
 //      be sure to think through all the scenarios. 
 //      console.log `mostPets` after the conditional has run.
 let mostPets;
-if (pets > friendsPets)console.log(mostPets=pets)
-  else console.log(mostPets=friendsPets)
+if (pets > friendsPets)(mostPets=pets)
+  else (mostPets=friendsPets)
 
 console.log(mostPets);
 
@@ -113,6 +113,9 @@ console.log(mostPets);
 //      Otherwise, "Luck is what happens when preparation meets opportunity"
 //      You'll need to research how to use switch statements!
 //      console.log `luckyResult` after the conditional has run.
+
+
+
 
 // 17 -- Rewrite question 12 with a `ternary` operator. You'll need to do research!
 
